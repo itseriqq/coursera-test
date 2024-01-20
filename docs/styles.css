@@ -60,6 +60,7 @@ h1 {
 .row > div {
     background-color: cadetblue;
     margin-right: 5px;
+    border-radius: 10px 0px 10px 10px;
 }
 
 div > p {
@@ -165,7 +166,7 @@ div > p {
     }
     .col-md-12 {
       width: 96.5%;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   }
 
