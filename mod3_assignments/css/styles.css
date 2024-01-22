@@ -29,9 +29,10 @@ section {
 #chicken {
     position: relative;
     background-color: #8f2222;
-    width: 70px;
+    width: 80px;
     text-align: center;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 #beef {
@@ -40,6 +41,7 @@ section {
     width: 60px;
     text-align: center;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 #sushi {
@@ -48,6 +50,7 @@ section {
     width: 60px;
     text-align: center;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 h1 {
