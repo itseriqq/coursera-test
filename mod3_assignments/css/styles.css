@@ -16,7 +16,7 @@
 }
 
 section {
-    height: 20px;
+    height: 40px;
     width: 100%;
     display: flex;
     justify-content: end;
@@ -97,6 +97,7 @@ div > p {
       width: 30%;
       margin-left: 30px;
       margin-bottom: 20px;
+      height: 500px;
     }
     .col-lg-5 {
       width: 41.66%;
@@ -148,7 +149,10 @@ div > p {
     .col-md-6 {
     margin-bottom: 10px;
     width: 48%;
+    height: 540px;
     }
+  
+
     .col-md-7 {
       width: 58.33%;
     }
@@ -166,6 +170,7 @@ div > p {
     }
     .col-md-12 {
       width: 96.5%;
+      height:300px;
       margin-bottom: 10px;
     }
   }
