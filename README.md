@@ -1,2 +1,1 @@
-# coursera-test
-HTML, CSS &amp; JS Assignments
+JOHNS HOPKINS COURSE.
