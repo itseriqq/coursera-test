@@ -5,24 +5,19 @@ body {
     padding: 0;
 }
 
-.header, #nav-header {
+#erick-name {
+    font-size: x-large;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+#nav-header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5px;
-}
-
-.header {
-    background-color: black;
-    height: 3.5em;
-}
-
-.nav-header {
-    margin-right: 80px;
-}
-
-.nav-header a {
-    margin-right: 20px;
+    padding: 15px;
+    padding-right: 50px;
+    font-size: large;
 }
 
 #title {
@@ -45,4 +40,19 @@ header a {
     text-decoration: none;
     color: white;
     font-weight: 300;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .navbar-nav .dropdown-menu {
+      margin-left: 25px; 
+    }
+
+    .navbar-nav .dropdown-toggle {
+        margin-left: 15px;
+    }
 }
