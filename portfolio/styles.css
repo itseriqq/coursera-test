@@ -18,6 +18,7 @@ body {
     padding: 15px;
     padding-right: 50px;
     font-size: large;
+    background-color: black;
 }
 
 #title {
@@ -36,16 +37,20 @@ body {
     color: #fff;
 }
 
-#gray, #white {
+#black, #white {
     height: 100vh;  /*avaliar e ajustar para diferentes media queries*/
     width: 100%;
     margin-right: 0;
     margin-left: 0;
-    
 }
 
-#gray {
-    background-color: #6c757d;
+#black {
+    background-color:black;
+
+}
+
+#black span {
+    color: white;
 }
 
 
