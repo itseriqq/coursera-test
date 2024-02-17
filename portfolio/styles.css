@@ -8,7 +8,13 @@ body {
 #erick-name {
     font-size: x-large;
     font-weight: 400;
-    padding-left: 20px;
+    padding-left: 20px;   
+}
+
+#erick-name:hover {
+    color: red; 
+    text-decoration: none;  
+    transition: color 0.3s ease;
 }
 
 #nav-header {
@@ -37,11 +43,33 @@ body {
     color: #fff;
 }
 
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover { 
+    color: red;
+  }
+
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+    color: red;
+  }
+  
+.navbar-nav .nav-item.dropdown.show .nav-link {
+    color: red;
+}
+  
+.navbar-nav .nav-item.dropdown.show .dropdown-menu a:hover {
+    color: red;
+    background-color: transparent;
+}
+
 #black, #white {
     height: 100vh;  /*avaliar e ajustar para diferentes media queries*/
     width: 100%;
     margin-right: 0;
     margin-left: 0;
+    padding-top: 60px;
 }
 
 #black {
@@ -53,11 +81,38 @@ body {
     color: white;
 }
 
+.round-image-container {
+    margin-top: 50px;
+    overflow: hidden;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 100%;
+}
+
+.round-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#curriculum {
+    margin-top: 20px;
+}
+
+#lateral-txt {
+    padding-left: 90px;
+    padding-top: 100px;
+    font-size: 50px;
+}
 
 header a {
     text-decoration: none;
     color: white;
     font-weight: 300;
+}
+
+#black span #txt-highlight{
+    color: red;
 }
 
 @media (max-width: 767px) {
