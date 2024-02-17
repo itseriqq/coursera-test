@@ -36,6 +36,19 @@ body {
     color: #fff;
 }
 
+#gray, #white {
+    height: 100vh;  /*avaliar e ajustar para diferentes media queries*/
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+
+#gray {
+    background-color: #6c757d;
+}
+
+
 header a {
     text-decoration: none;
     color: white;
