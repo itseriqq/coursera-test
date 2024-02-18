@@ -12,7 +12,7 @@ body {
 }
 
 #erick-name:hover {
-    color: red; 
+    color: #3982FD; 
     text-decoration: none;  
     transition: color 0.3s ease;
 }
@@ -48,19 +48,19 @@ body {
 }
 
 .navbar-nav .nav-link:hover { 
-    color: red;
+    color: #3982FD;
   }
 
 .navbar-nav .nav-item.dropdown:hover .nav-link {
-    color: red;
+    color: #3982FD;
   }
   
 .navbar-nav .nav-item.dropdown.show .nav-link {
-    color: red;
+    color: #3982FD;
 }
   
 .navbar-nav .nav-item.dropdown.show .dropdown-menu a:hover {
-    color: red;
+    color: #3982FD;
     background-color: transparent;
 }
 
@@ -74,7 +74,7 @@ body {
 
 #black {
     background-color:black;
-
+    margin-right: 0;
 }
 
 #black span {
@@ -84,8 +84,8 @@ body {
 .round-image-container {
     margin-top: 50px;
     overflow: hidden;
-    width: 300px; 
-    height: 300px; 
+    width: 400px; 
+    height: 400px; 
     border-radius: 100%;
 }
 
@@ -106,13 +106,33 @@ body {
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: none;  
     color: white;
     font-weight: 300;
 }
 
+#curriculum {
+    border-radius: 30px;
+    height: 40px;
+    width: 160px;
+    background-color: #3982FD;
+    border: none;
+    color: #fff;
+}
+
+#curriculum:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+#download {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 #black span #txt-highlight{
-    color: red;
+    color: #3982FD;
 }
 
 @media (max-width: 767px) {
