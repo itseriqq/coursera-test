@@ -8,7 +8,7 @@ body {
 #erick-name {
     font-size: x-large;
     font-weight: 400;
-    padding-left: 20px;   
+    padding-left: 40px;   
 }
 
 #erick-name:hover {
@@ -22,7 +22,7 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 15px;
-    padding-right: 50px;
+    padding-right: 60px;
     font-size: large;
     background-color: black;
 }
@@ -47,9 +47,9 @@ body {
     color: white;
 }
 
-.navbar-nav .nav-link:hover { 
-    color: #3982FD;
-  }
+.nav-link:hover { 
+    color: #3982FD !important; /*passando por cima das regras do bootstrap*/
+}
 
 .navbar-nav .nav-item.dropdown:hover .nav-link {
     color: #3982FD;
@@ -64,28 +64,28 @@ body {
     background-color: transparent;
 }
 
-#black, #white {
-    height: 100vh;  /*avaliar e ajustar para diferentes media queries*/
+#conteudo {
     width: 100%;
     margin-right: 0;
     margin-left: 0;
-    padding-top: 60px;
-}
-
-#black {
-    background-color:black;
+    padding-top: 120px;
+    background-color:rgb(255, 255, 255);
     margin-right: 0;
 }
 
-#black span {
-    color: white;
+#conteudo span {
+    color: rgb(0, 0, 0);
+}
+
+.separador {
+    border-right: 1px solid;
 }
 
 .round-image-container {
-    margin-top: 50px;
+    margin-top: 20px;
     overflow: hidden;
-    width: 400px; 
-    height: 400px; 
+    width: 500px; 
+    height: 500px; 
     border-radius: 100%;
 }
 
@@ -96,13 +96,13 @@ body {
 }
 
 #curriculum {
-    margin-top: 20px;
+    margin-top: -30px;
 }
 
 #lateral-txt {
-    padding-left: 90px;
-    padding-top: 100px;
-    font-size: 50px;
+    padding-left: 40px;
+    margin-top: 140px;
+    font-size: 45px;
 }
 
 header a {
@@ -118,21 +118,81 @@ header a {
     background-color: #3982FD;
     border: none;
     color: #fff;
+    font-weight: bold;
+    outline: none;
 }
 
 #curriculum:hover {
     border: 1px solid black;
     transform: scale(1.05);
     transition: .2s;
+    box-shadow: 30px #3982FD;
+}
+
+#curriculum:active {
+    border: none;
+    box-shadow: none;
 }
 
 #download {
     font-size: 20px;
     margin-left: 10px;
+    font-weight: bold;
+    margin-top: 2px;
 }
 
-#black span #txt-highlight{
+#conteudo span #txt-highlight{
     color: #3982FD;
+}
+
+
+/* Sobre */
+
+#sobre {
+    margin-top: 90px;
+    padding-left: 30px;
+}
+
+#sobre span {
+    color: #3982FD;
+    font-size: 30px;
+}
+
+#sobre span #txt-highlight-sobre {
+    color: #3982FD;
+}
+
+#sobre-content {
+    margin-top: 30px;
+}
+
+/* fim do sobre */
+
+
+
+/* media queries */
+
+@media (max-width: 575px){
+    #erick-name {
+        padding-left: 20px;   
+    }
+    #nav-header {
+        padding: 15px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .separador {
+        border: none;
+    }
+    #lateral-txt{ 
+        margin-top: 30px;
+        padding-left: 80px;
+    }
+    #row-sobre {
+        margin-top: 120px;
+    }
 }
 
 @media (max-width: 767px) {
