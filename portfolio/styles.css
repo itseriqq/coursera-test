@@ -77,6 +77,24 @@ body {
     color: rgb(0, 0, 0);
 }
 
+#conteudo i {
+    cursor: pointer;
+}
+
+#row-icones-inicio {
+    width: 100%;
+}
+
+#conteudo #icones-inicio {
+    margin-top: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 40px;
+    color:#000;
+}
+
 .separador {
     border-right: 1px solid;
 }
@@ -193,6 +211,10 @@ header a {
     #row-sobre {
         margin-top: 120px;
     }
+    #conteudo #icones-inicio {
+        margin-top: 80px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -207,5 +229,11 @@ header a {
 
     .navbar-nav .dropdown-toggle {
         margin-left: 15px;
+    }
+}
+
+@media (max-width: 1240px){
+    #conteudo #icones-inicio {
+        margin-top: 70px;
     }
 }
