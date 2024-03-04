@@ -1,5 +1,5 @@
 body {
-    font-family: 'Kanit', sans-serif;
+    font-family: Poppins, sans-serif;
     display: border-box;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body {
 
 #erick-name {
     font-size: x-large;
-    font-weight: 400;
+    font-weight: 600;
     padding-left: 40px;   
 }
 
@@ -27,7 +27,7 @@ body {
     background-color: black;
 }
 
-#title {
+/* #title {
     display: relative;
     font-size: 24px;
     text-align: left;
@@ -35,13 +35,13 @@ body {
     color: #fff;
     margin-right: auto;
     margin-left: 50px;
-}
+} */
 
-#title a {
+/* #title a {
     font-size: 24px;
     font-weight: 900;
     color: #fff;
-}
+} */
 
 .navbar-toggler-icon {
     color: white;
@@ -64,17 +64,23 @@ body {
     background-color: transparent;
 }
 
+section {
+    background-color: #f9f9f9;
+}
+
 #conteudo {
     width: 100%;
     margin-right: 0;
     margin-left: 0;
     padding-top: 120px;
-    background-color:rgb(255, 255, 255);
+    background-color: #f9f9f9;;
     margin-right: 0;
 }
 
 #conteudo span {
-    color: rgb(0, 0, 0);
+    color: #2d2e32;
+    font: Poppins;
+    font-weight: 600;
 }
 
 #conteudo i {
@@ -92,7 +98,7 @@ body {
     align-items: center;
     gap: 20px;
     font-size: 40px;
-    color:#000;
+    color:#2d2e32;
 }
 
 .separador {
@@ -161,6 +167,7 @@ header a {
 
 #conteudo span #txt-highlight{
     color: #3982FD;
+    font-weight: 600;
 }
 
 
