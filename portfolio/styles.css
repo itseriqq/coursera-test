@@ -64,10 +64,6 @@ body {
     background-color: transparent;
 }
 
-section {
-    background-color: #f9f9f9;
-}
-
 #conteudo {
     width: 100%;
     margin-right: 0;
@@ -75,6 +71,7 @@ section {
     padding-top: 120px;
     background-color: #f9f9f9;;
     margin-right: 0;
+    padding-bottom: 80px;
 }
 
 #conteudo span {
@@ -103,6 +100,7 @@ section {
 
 .separador {
     border-right: 1px solid;
+    height: 600px;
 }
 
 .round-image-container {
@@ -126,7 +124,7 @@ section {
 #lateral-txt {
     padding-left: 40px;
     margin-top: 140px;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 header a {
@@ -170,29 +168,44 @@ header a {
     font-weight: 600;
 }
 
-
 /* Sobre */
 
 #sobre {
-    margin-top: 90px;
-    padding-left: 30px;
+    background-color: #fff;
 }
 
-#sobre span {
+#sobre-div-title {
+    margin-top: 50px;
+    padding-left: 30px;
     color: #3982FD;
     font-size: 30px;
+    font: 'Poppins';
+    font-weight: 600;
 }
+
+/* #sobre span {
+    color: #3982FD;
+    font-size: 30px;
+} */
 
 #sobre span #txt-highlight-sobre {
     color: #3982FD;
 }
 
 #sobre-content {
-    margin-top: 30px;
+    margin-top: 20px;
+    color: #3982FD;
+    font-size: 18px;
+}
+
+#txt-lateral-sobre h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #2d2e32;
 }
 
 /* fim do sobre */
-
 
 
 /* media queries */
@@ -221,7 +234,6 @@ header a {
     #conteudo #icones-inicio {
         margin-top: 80px;
     }
-
 }
 
 @media (max-width: 767px) {
@@ -243,4 +255,9 @@ header a {
     #conteudo #icones-inicio {
         margin-top: 70px;
     }
+
+    #lateral-txt {
+        font-size: 32px;
+    }
+
 }
