@@ -50,7 +50,7 @@
         </div>
         <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12 d-flex flex-column align-items-start" id="lateral-txt">
           <span>Hey!</span>
-          <span>I'm <span id="txt-highlight">Erick </span>.</span>
+          <span>I'm <span id="txt-highlight">Erick</span>.</span>
           <span>I'm a <span id="txt-highlight">UX</span> and <span id="txt-highlight">Front-End Developer</span>.</span>
           <div class="row" id="row-icones-inicio">
             <div class="col-12" id="icones-inicio">
@@ -65,13 +65,13 @@
 
 <!-- section sobre -->
 <section id="sobre">
-  <div class="container-fluid">
-    <div class="row"> <!-- row titulo-->
+  <div class="container">
+    <div class="row">
         <div id="sobre-div-content"> <!-- inicio do sobre-->
           <span id="titulo-sobre">Sobre.</span>
-        </div>  <!-- fim row titulo-->
-
-            <div class="row d-flex flex-md-row flex-column" id="sobre-content"> <!-- C classe d-flex e flex-md-row para exibir as colunas lado a lado em dispositivos médios e maiores -->
+        </div>
+        </div>
+            <div class="row d-flex flex-md-row" id="sobre-content"> <!-- C classe d-flex e flex-md-row para exibir as colunas lado a lado em dispositivos médios e maiores -->
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"> 
                 <ul class="list-group list-group-flush fs-10">
                   <li class="list-group-item">Idade: <span class="fw-lighter">20 anos</span></li>
@@ -81,19 +81,31 @@
                 </ul>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="txt-lateral-sobre">
-                  <div class="d-flex align-items-center flex-column">
-                    <h2>Tech Stack</h2>
-                  </div>
-                  <div class="row" id="row-icones-sobre">
-                    <div class="col-12" id="icones-sobre">
-                      <i class="bi bi-html"></i>
-                      <i class="bi bi-github"></i>
+                  <div class="row w-100">
+                    <div class="d-flex align-items-center justify-content-center tech-stack-title">
+                      <h2>Tech Stack</h2>
                     </div>
+                    <hr>
                   </div>
-                </div>
+                  <div class="row w-100 sobre-logos">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center skills">
+                      <ul>
+                        <li>
+                          <img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon">
+                        </li>
+                        <li>
+                          <img src="https://skillicons.dev/icons?i=git,c" alt="skill-icon">
+                        </li>
+                        <li>
+                          <img src="https://skillicons.dev/icons?i=python,figma" alt="skill-icon">
+                        </li>
+                      </ul>
+                    </div>
               </div>
-            </div> <!-- fim do sobre -->
+          </div>
+        </div>
       </div>
+  </div>
 </section>
 
   
@@ -103,6 +115,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7d05e30bde.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

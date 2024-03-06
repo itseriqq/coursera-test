@@ -98,7 +98,6 @@ body {
     transition: .2 ease;
 }
 
-
 #conteudo #icones-inicio {
     margin-top: 135px;
     display: flex;
@@ -137,6 +136,10 @@ body {
     padding-left: 40px;
     margin-top: 140px;
     font-size: 40px;
+}
+
+span #txt-highlight {
+    color: #3982FD;
 }
 
 header a {
@@ -208,6 +211,40 @@ header a {
     font-family: 'Poppins';
     color: #2d2e32;
 }
+
+.tech-stack-title {
+    margin-bottom: 11px;
+}
+
+.sobre-logos {
+    margin-top: 30px;
+}
+
+.skills {
+    align-items: center;
+    bottom: 0;
+    color: #767676;
+    display: flex;
+    font-size: 1.7rem;
+    left: 0;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    list-style: none;
+}
+
+.skills ul li img {
+    transition: all .3s ease-in-out;
+}
+
+.skills ul li img:hover {
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+}
+
 
 /* fim do sobre */
 
