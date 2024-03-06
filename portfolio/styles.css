@@ -80,13 +80,24 @@ body {
     font-weight: 600;
 }
 
-#conteudo i {
-    cursor: pointer;
-}
-
 #row-icones-inicio {
     width: 100%;
 }
+
+#conteudo #linkedin-i:hover {
+    font-size: 50px;
+    cursor: pointer;
+    color: #3982FD;
+    transition: .2 ease;
+}
+
+#conteudo .row #github-i:hover {
+    font-size: 50px;
+    cursor: pointer;
+    color: #3982FD;
+    transition: .2 ease;
+}
+
 
 #conteudo #icones-inicio {
     margin-top: 135px;
@@ -96,6 +107,7 @@ body {
     gap: 20px;
     font-size: 40px;
     color:#2d2e32;
+    height: 80px;
 }
 
 .separador {
@@ -163,9 +175,10 @@ header a {
     margin-top: 2px;
 }
 
-#conteudo span #txt-highlight{
+#titutlo-sobre{
     color: #3982FD;
     font-weight: 600;
+    margin-left: 20px;
 }
 
 /* Sobre */
@@ -174,22 +187,13 @@ header a {
     background-color: #fff;
 }
 
-#sobre-div-title {
+#sobre-div-content {
     margin-top: 50px;
     padding-left: 30px;
     color: #3982FD;
     font-size: 30px;
     font: 'Poppins';
     font-weight: 600;
-}
-
-/* #sobre span {
-    color: #3982FD;
-    font-size: 30px;
-} */
-
-#sobre span #txt-highlight-sobre {
-    color: #3982FD;
 }
 
 #sobre-content {
