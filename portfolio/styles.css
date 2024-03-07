@@ -151,7 +151,7 @@ header a {
 #curriculum {
     border-radius: 30px;
     height: 40px;
-    width: 160px;
+    width: 170px;
     background-color: #3982FD;
     border: none;
     color: #fff;
@@ -172,7 +172,7 @@ header a {
 }
 
 #download {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 10px;
     font-weight: bold;
     margin-top: 2px;
@@ -208,11 +208,14 @@ header a {
     font-size: 20px;
     font-weight: 600;
     font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
     color: #2d2e32;
 }
 
 .tech-stack-title {
     margin-bottom: 11px;
+    margin-left: 15px;
 }
 
 .sobre-logos {
@@ -223,12 +226,12 @@ header a {
     bottom: 0;
     color: #767676;
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .skills ul {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap; se der erro tirar comentario*/ 
     gap: 1.5rem;
     list-style: none;
 }
