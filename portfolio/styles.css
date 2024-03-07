@@ -178,10 +178,9 @@ header a {
     margin-top: 2px;
 }
 
-#titutlo-sobre{
+#titulo-sobre{
     color: #3982FD;
     font-weight: 600;
-    margin-left: 20px;
 }
 
 /* Sobre */
@@ -192,7 +191,7 @@ header a {
 
 #sobre-div-content {
     margin-top: 50px;
-    padding-left: 30px;
+    padding-left: 25px;
     color: #3982FD;
     font-size: 30px;
     font: 'Poppins';
