@@ -231,7 +231,7 @@ header a {
 
 .skills ul {
     display: flex;
-    /*flex-wrap: wrap; se der erro tirar comentario*/ 
+    flex-wrap: wrap;
     gap: 1.5rem;
     list-style: none;
 }
