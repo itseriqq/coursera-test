@@ -69,7 +69,7 @@ body {
     margin-right: 0;
     margin-left: 0;
     padding-top: 120px;
-    background-color: #f9f9f9;;
+    background-color: #f9f9f9;
     margin-right: 0;
     padding-bottom: 80px;
 }
@@ -111,7 +111,7 @@ body {
 
 .separador {
     border-right: 1px solid;
-    height: 600px;
+    height: 500px;
 }
 
 .round-image-container {
@@ -220,18 +220,16 @@ header a {
 }
 
 .skills {
-    align-items: center;
     bottom: 0;
     color: #767676;
     display: flex;
-    font-size: 1.7rem;
-    left: 0;
+    font-size: 1.5rem;
 }
 
 .skills ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 1.5rem;
     list-style: none;
 }
 
@@ -246,6 +244,28 @@ header a {
 
 
 /* fim do sobre */
+
+
+/* inicio section projetos*/
+
+#projetos {
+    color:#2d2e32;
+    background-color: #f9f9f9;
+    margin-top: 60px;
+}
+
+#projetos .row-projetos-1 {
+    margin-top: 90px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#projetos .row-projetos-2 p {
+    margin-bottom: 90px;
+    font-size: 35px;
+}
+
+/* fim section projetos*/
 
 
 /* media queries */
