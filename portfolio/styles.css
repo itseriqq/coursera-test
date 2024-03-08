@@ -293,7 +293,7 @@ header a {
 }
 
 .cv .cv-item h4 {
-    line-height: 18px;
+    line-height: 22px;
     font-weight: 600;
     /* text-transform: uppercase; */
     margin-bottom: 10px;
@@ -314,7 +314,7 @@ header a {
 .cv .more {
     border: 1px solid #3982FD;
     color: #3982FD;
-    margin-left: -25px;
+    margin-left: -35px;
 }
 
 
