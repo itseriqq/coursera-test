@@ -314,6 +314,7 @@ header a {
 .cv .more {
     border: 1px solid #3982FD;
     color: #3982FD;
+    margin-left: -25px;
 }
 
 
