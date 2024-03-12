@@ -142,7 +142,7 @@ span #txt-highlight {
     color: #3982FD;
 }
 
-header a {
+.header a {
     text-decoration: none;  
     color: white;
     font-weight: 300;
@@ -387,6 +387,15 @@ header a {
     #nav-header {
         padding: 15px;
         padding-right: 20px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 475px) {
+    .sec-hero img-hero-section {
+        width: 80px;
     }
 }
 
